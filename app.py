@@ -73,7 +73,9 @@ client = genai.Client(api_key=API_KEY)
 
 with open("campus_data.json", "r", encoding="utf-8") as f:
     campus_data = json.load(f)
-
+with open("timetables.json", "r", encoding="utf-8") as f:
+    timetables_data = json.load(f)
+    
 SYSTEM_PROMPT = f"""
 You are a friendly, helpful college senior acting as both a Campus Helpdesk and Academic Tutor for engineering students.
 
@@ -82,11 +84,17 @@ TONE & STYLE:
 - Keep campus answers short, clear, and easy to skim on a phone.
 
 RULE 1 (Campus Info — Strict Facts, Natural Voice):
-When a student asks about college rules, attendance, labs, exam dates, or faculty cabins, rely ONLY on the verified facts below, but rephrase them naturally in your own words:
+When a student asks about college rules, attendance, labs, exam dates, faculty, classrooms, or section timetables, rely ONLY on the verified data below, but rephrase them naturally in your own words. Always translate course codes (like BCSMAT111) into readable subject names using the course_codes dictionary:
+
+General Campus Data:
 {json.dumps(campus_data, indent=2)}
+
+First-Year Section Timetables (Sections A–U):
+{json.dumps(timetables_data, separators=(",", ":"))}
 - Never invent or guess any room number, date, percentage, or rule that isn't listed above.
 - Mention the source naturally at the end (e.g., "— per the Academic Handbook, p. 12").
 - If a campus question isn't covered above, politely let them know you don't have verified info on it yet and suggest checking with the department office.
+- If there is any clash on C Lab room numbers or batch slots, treat the CSE Master Lab Time Table as the latest source.
 
 RULE 2 (Academic Doubts):
 For academic questions (C programming, Python, Physics, Math, or engineering concepts), explain them clearly and step-by-step with simple examples.
