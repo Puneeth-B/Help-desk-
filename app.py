@@ -84,3 +84,21 @@ if prompt := st.chat_input("Ask a campus or academic question..."):
 
         if last_error:
             st.error(f"All models are busy right now. Try again in a few seconds.\n\nDetails: {last_error}")
+# Convert Streamlit chat history into Gemini's format
+        history = [
+            types.Content(
+                role="model" if m["role"] == "assistant" else "user",
+                parts=[types.Part.from_text(text=m["content"])],
+            )
+            for m in st.session_state.messages
+        ]
+
+        for model_name in MODELS:
+            try:
+                response = client.models.generate_content_stream(
+                    model=model_name,
+                    contents=history,  # <-- changed from prompt to history
+                    config=types.GenerateContentConfig(
+                        system_instruction=SYSTEM_PROMPT,
+                    ),
+                )
