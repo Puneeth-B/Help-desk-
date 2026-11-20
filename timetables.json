@@ -1,0 +1,535 @@
+{
+  "institute": "Bapuji Institute of Engineering & Technology (BIET), Davangere - 577 004",
+  "semester": "I Semester B.E. (2026-2027)",
+  "course_codes": {
+    "BCSMAT111": "Applied Mathematics-I for CSE Stream",
+    "BEEMAT111": "Applied Mathematics-I for EE Stream",
+    "BMEMAT111": "Applied Mathematics-I for ME Stream",
+    "BCVMAT111": "Applied Mathematics-I for CV Stream",
+    "BCSPHY112": "Applied Physics for CSE Stream",
+    "BEEPHY112": "Applied Physics for EE Stream",
+    "BMEPHY112": "Applied Physics for ME Stream",
+    "BCSCHE112": "Applied Chemistry for CS Stream",
+    "BEECHE112": "Applied Chemistry for EE Stream",
+    "BCVCHE112": "Applied Chemistry for CV Stream",
+    "BCSCAD113": "Computer Aided Engineering Drawing for CS Stream",
+    "BEECAD113": "Computer Aided Engineering Drawing for EE Stream",
+    "BMECAD113": "Computer Aided Engineering Drawing for ME Stream",
+    "BFYETC113": "Introduction to AI and its Applications",
+    "BCVESC114": "Introduction to Civil Engineering",
+    "BECESC114": "Introduction to Electronics & Communication",
+    "BEEESC114": "Introduction to Electrical Engineering",
+    "BCSPSC115": "Programming in C",
+    "BEEPSC115": "Basics of Electrical Engineering",
+    "BMEPSC115": "Elements of Mechanical Engineering",
+    "BECPSC115": "Fundamentals of Electronics and Communication Engineering",
+    "BCVPSC115": "Elements of Civil Engineering and Mechanics",
+    "BCSPSCL116": "C Programming Lab",
+    "BCSPSL116": "C Programming Lab (CSE and Allied Branches)",
+    "BBTPSL116": "Biotechnology Lab (BT)",
+    "BEEPSL116": "Basic Electrical Engineering Lab",
+    "BMEPSL116": "Elements of Mechanical Engineering Lab",
+    "BECPSL116": "Fundamentals of Electronics and Communication Engineering Lab",
+    "BCVPSL116": "Engineering Mechanics Lab",
+    "BHSSKA117/BHSBKA117": "Samskrutika Kannada / Balake Kannada",
+    "BHSENG117": "Effective Communication and Soft Skills",
+    "BHSIDL118": "Innovation and Design Thinking Lab"
+  },
+  "sections": {
+    "A": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "EE-202",
+      "instructors": {
+        "BCSMAT111": "Prof. Reshma MT",
+        "BCSPHY112": "Dr. Krishnakumar T K",
+        "BCSCAD113": "Prof. Umesh DE",
+        "BCVESC114": "Dr. C P Anil Kumar",
+        "BCSPSC115": "Prof. Archana T Chawhan",
+        "BCSPSCL116 (Room A121)": "Prof. Archana T Chawhan",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Prof. Umesh DE"
+      },
+      "schedule": {
+        "MON": "8-9 BCSPSC115 | 9-10 BCSPHY112 | 10:30-12:30 BCSMAT111 | 2-4 A1(BCSPHY112), A2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "TUE": "8-9 BCVESC114 | 9-10 BCSPSC115 | 10:30-12:30 A1(BCSPHY112), A2(BCSPSCL116) | 2-4 AICTE ACTIVITY",
+        "WED": "8-9 BCSCAD113 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSPHY112 | 2-4 A1(BCSCAD113), A2(BHSIDL118)",
+        "THU": "8-9 BCSMAT111 | 9-10 BCVESC114 | 10:30-12:30 BCSPHY112 | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "FRI": "8-9 BCSPHY112 | 9-10 BCVESC114 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSPSC115 | 2-4 A2(BCSCAD113), A1(BHSIDL118)",
+        "SAT": "9-10 BCSMAT111 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCVESC114"
+      }
+    },
+    "B": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "EE-205",
+      "instructors": {
+        "BCSMAT111": "Dr. Rekha M B",
+        "BCSPHY112": "Dr. Santhosh Kumar MV",
+        "BCSCAD113": "Prof. Manjunath G M",
+        "BCVESC114": "Prof. Shahabaz Hakeem",
+        "BCSPSC115": "Prof. Ranjitha",
+        "BCSPSCL116 (Room A121)": "Prof. Ranjitha",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Prof. Manjunath G M"
+      },
+      "schedule": {
+        "MON_TO_THU_NOTE": "Morning theory slots merged in source PDF; verify exact morning periods on official sheet",
+        "MON": "2-4 B1(BCSPHY112), B2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "TUE": "10:30-12:30 B1(BCSPSCL116), B2(BCSPHY112) | 2-4 AICTE ACTIVITY",
+        "WED": "2-4 B1(BCSCAD113), B2(BHSIDL118)",
+        "THU": "2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "FRI": "8-9 BCSPSC115 | 9-10 BCVESC114 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSPHY112 | 2-4 B2(BCSCAD113), B1(BHSIDL118)",
+        "SAT": "8-9 BCVESC114 | 9-10 BCSMAT111 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCSPSC115"
+      }
+    },
+    "C": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "EE-206",
+      "instructors": {
+        "BCSMAT111": "Prof. Nagarthnamma K G",
+        "BCSPHY112": "Dr. Vinay Parol",
+        "BCSCAD113": "Dr. S J Prashanth",
+        "BCVESC114": "Dr. Raghu M E",
+        "BCSPSC115": "Prof. Drusti",
+        "BCSPSCL116 (Room A121)": "Prof. Drusti",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. S J Prashanth"
+      },
+      "schedule": {
+        "MON": "8-9 BCSPSC115 | 9-10 BCSMAT111 | 10:30-12:30 BCVESC114 | 2-4 C1(BCSCAD113), C2(BHSIDL118)",
+        "TUE": "8-9 BCVESC114 | 9-10 BCSPHY112 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSPSC115 | 2-4 C1(BCSPHY112), C2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "WED": "8-9 BCSPHY112 | 9-10 BCSMAT111 | 10:30-12:30 C1(BCSPSCL116), C2(BCSPHY112) | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "THU": "8-9 BCSMAT111 | 9-10 BCVESC114 | 10:30-12:30 BCSPSC115 | 2-4 C2(BCSCAD113), C1(BHSIDL118)",
+        "FRI": "9-10 BCSCAD113 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCVESC114 | 2-4 AICTE ACTIVITY",
+        "SAT": "9-10 BCSMAT111 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSPHY112"
+      }
+    },
+    "D": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "EE-305",
+      "instructors": {
+        "BCSMAT111": "Prof. Chaitra A P",
+        "BCSPHY112": "Dr. Santhosh Kumar MV",
+        "BCSCAD113": "Dr. Mohan TR",
+        "BCVESC114": "Prof. Praveen Kumar G B",
+        "BCSPSC115": "Prof. Vinayaka P",
+        "BCSPSCL116 (Room A121)": "Prof. Vinayaka P",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. Mohan TR"
+      },
+      "schedule": {
+        "MON": "8-9 BCSCAD113 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCSPSC115 | 2-4 D1(BCSCAD113), D2(BHSIDL118)",
+        "TUE": "8-9 BCVESC114 | 9-10 BCSPSC115 | 10:30-12:30 BCSMAT111 | 2-4 D1(BCSPHY112), D2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "WED": "9-10 BCSMAT111 | 10:30-12:30 D1(BCSPSCL116), D2(BCSPHY112) | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "THU": "8-9 BCSMAT111 | 9-10 BCVESC114 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCSPSC115 | 2-4 D2(BCSCAD113), D1(BHSIDL118)",
+        "FRI": "8-9 BCSPSC115 | 9-10 BCSPHY112 | 10:30-11:30 BCVESC114 | 11:30-12:30 BCSMAT111 | 2-4 AICTE ACTIVITY",
+        "SAT": "8-9 BCSPHY112 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCVESC114"
+      }
+    },
+    "E": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "EE-306",
+      "instructors": {
+        "BCSMAT111": "Dr. N S Basavarajappa",
+        "BCSPHY112": "Dr. Vinay Parol",
+        "BCSCAD113": "Dr. Ashoka E",
+        "BCVESC114": "Prof. Priyanka N",
+        "BCSPSC115": "Prof. Rahima B",
+        "BCSPSCL116 (Room A121)": "Prof. Rahima B",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. Ashoka E"
+      },
+      "schedule": {
+        "MON": "8-9 BCVESC114 | 9-10 BCSMAT111 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCSPSC115 | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "TUE": "8-9 BCSMAT111 | 9-10 BCVESC114 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSPHY112 | 2-4 E1(BCSCAD113), E2(BHSIDL118)",
+        "WED": "8-9 BCVESC114 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSPHY112 | 2-4 E1(BCSPHY112), E2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "THU": "8-9 BCSMAT111 | 9-10 BCSPHY112 | 10:30-12:30 E1(BCSPHY112), E2(BCSPSCL116) [Verify against CSE Master C Lab schedule]",
+        "FRI": "8-10 BCSCAD113 | 10:30-12:30 E2(BCSCAD113), E1(BHSIDL118) | 2-4 AICTE ACTIVITY",
+        "SAT": "8-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCVESC114"
+      }
+    },
+    "F": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "EE-302",
+      "instructors": {
+        "BCSMAT111": "Dr. Anil Kumar K N",
+        "BCSPHY112": "Prof. Kavitha P G",
+        "BCSCAD113": "Dr. Sushma A Patil",
+        "BCVESC114": "Dr. Sumana Y B",
+        "BCSPSC115": "Prof. Kavya",
+        "BCSPSCL116 (Room A121)": "Prof. Kavya",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. Sushma Patil"
+      },
+      "schedule": {
+        "MON": "8-9 BCSPSC115 | 9-10 BCSMAT111 | 10:30-11:30 BCVESC114 | 11:30-12:30 BCSPHY112 | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "TUE": "9-10 BCSCAD113 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSPSC115 | 2-4 F1(BCSCAD113), F2(BHSIDL118)",
+        "WED": "9-10 BCVESC114 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSMAT111 | 2-4 F1(BCSPHY112), F2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "THU": "8-9 BCVESC114 | 9-10 BCSPHY112 | 10:30-12:30 F1(BCSPSCL116), F2(BCSPHY112)",
+        "FRI": "8-9 BCSPHY112 | 9-10 BCSMAT111 | 10:30-12:30 F2(BCSCAD113), F1(BHSIDL118) | 2-4 AICTE ACTIVITY",
+        "SAT": "8-9 BCSMAT111 | 9-10 BCVESC114 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCSPSC115"
+      }
+    },
+    "G": {
+      "cycle": "Physics-cycle",
+      "branch": "CS&E",
+      "room": "ME-006",
+      "instructors": {
+        "BCSMAT111": "Prof. Pallavi G H",
+        "BCSPHY112": "Dr. Krishnakumar T K",
+        "BCSCAD113": "Dr. A B Vinayaka Patil",
+        "BCVESC114": "Prof. Sharathraj R M",
+        "BCSPSC115": "Prof. Bharath H C",
+        "BCSPSCL116 (Room A121)": "Prof. Bharath H C",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. A B Vinayaka Patil"
+      },
+      "schedule": {
+        "MON": "8-9 BCSPSC115 | 9-10 BCSMAT111 | 10:30-11:30 BCVESC114 | 11:30-12:30 BCSPHY112",
+        "TUE": "8-9 BCSMAT111 | 9-10 BCSPSC115 | 10:30-11:30 BCSPHY112 | 11:30-12:30 BCVESC114 | 2-4 AICTE ACTIVITY",
+        "WED": "9-10 BCSCAD113 | 10:30-12:30 G1(BCSCAD113), G2(BHSIDL118) | 2-3 BCSMAT111 | 3-4 BCSPSC115",
+        "THU": "8-9 BCSPHY112 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCVESC114 | 2-4 G1(BCSPHY112), G2(BCSPSCL116) | 4-5:30 MATHS LAB",
+        "FRI": "8-9 BCVESC114 | 9-10 BCSMAT111 | 10:30-12:30 G1(BCSPSCL116), G2(BCSPHY112) | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "SAT": "9-10 BCSPHY112 | 10:30-12:30 G2(BCSCAD113), G1(BHSIDL118)"
+      }
+    },
+    "H": {
+      "cycle": "Physics-cycle",
+      "branch": "EEE",
+      "room": "ME-007",
+      "instructors": {
+        "BEEMAT111": "Prof. NL1",
+        "BEEPHY112": "Prof. Tanushree K M",
+        "BEECAD113": "Dr. T N Vijay Kumar",
+        "BCVESC114": "Prof. Savan RG",
+        "BEEPSC115": "Prof. Karibasaraju T S",
+        "BEEPSL116": "Prof. Karibasaraju T S",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. T N Vijay Kumar"
+      },
+      "schedule": {
+        "MON": "9-12:30 BEEPHY112, BCVESC114, BEEPSC115",
+        "TUE": "8-9 BCVESC114 | 9-12:30 BEEMAT111, BEEPSC115, BEEPHY112 | 2-4 AICTE ACTIVITY",
+        "WED": "8-9 BEECAD113 | 10:30-12:30 H1(BEECAD113), H2(BHSIDL118) | 2-3 BEEMAT111 | 3-4 BCVESC114",
+        "THU": "8-9 BEEPHY112 | 9-12:30 BCVESC114, BEEMAT111, BEEPSC115 | 2-4 H1(BEEPHY112), H2(BEEPSL116) | 4-5:30 MATHS LAB",
+        "FRI": "8-9 BEEPSC115 | 9-10 BEEMAT111 | 10:30-12:30 H1(BEEPSL116), H2(BEEPHY112) | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "SAT": "8-9 BEEMAT111 | 9-10 BEEPHY112 | 10:30-12:30 H2(BEECAD113), H1(BHSIDL118)"
+      }
+    },
+    "I": {
+      "cycle": "Physics-cycle",
+      "branch": "Mechanical",
+      "room": "CV-105",
+      "instructors": {
+        "BMEMAT111": "Dr. Ashwini M Rao",
+        "BMEPHY112": "Prof. Geetha V K",
+        "BMECAD113": "Prof. Ravikumar H N",
+        "BCVESC114": "Dr. Basavanagowda S N",
+        "BMEPSC115": "Prof. Manjunath G M",
+        "BMEPSL116": "Prof. Manjunath G M",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Prof. Ravikumar H N"
+      },
+      "schedule": {
+        "MON": "8-9 BCVESC114 | 9-10 BMEPHY112 | 10:30-12:30 BMEMAT111 | 2-4 AICTE ACTIVITY",
+        "TUE": "8-9 BMEPHY112 | 9-10 BMEMAT111 | 10:30-12:30 I1(BMECAD113), I2(BHSIDL118) | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "WED": "8-9 BMEMAT111 | 9-10 BMEPSC115 | 10:30-11:30 BCVESC114 | 11:30-12:30 BMEPHY112",
+        "THU": "8-10 BMEPHY112 | 10:30-12:30 I2(BMECAD113), I1(BHSIDL118) | 2-3 BMEMAT111 | 3-4 BCVESC114",
+        "FRI": "8-10 BMECAD113 | 10:30-11:30 BMEPSC115 | 11:30-12:30 BMEMAT111 | 2-4 I1(BMEPHY112), I2(BMEPSL116) | 4-5:30 MATHS LAB",
+        "SAT": "8-9 BCVESC114 | 9-10 BMEPSC115 | 10:30-12:30 I1(BMEPSL116), I2(BMEPHY112)"
+      }
+    },
+    "J": {
+      "cycle": "Physics-cycle (ME Stream)",
+      "branch": "CH+TX",
+      "room": "CV-001",
+      "instructors": {
+        "BMEMAT111": "Dr. Santhosh H B",
+        "BMEPHY112": "Dr. Jagadeesh M R",
+        "BMECAD113": "Dr. A G Shankaramurthy",
+        "BCVESC114": "Prof. Arpitha D J",
+        "BMEPSC115": "Dr. Sushma A Patil",
+        "BMEPSL116": "Dr. Sushma A Patil",
+        "BHSSKA117/BHSBKA117": "Prof. Shanthala P H",
+        "BHSIDL118": "Dr. A G Shankaramurthy"
+      },
+      "schedule": {
+        "MON": "9-10 BMEMAT111 | 10:30-11:30 BCVESC114 | 11:30-12:30 BMEPHY112 | 2-4 AICTE ACTIVITY",
+        "TUE": "8-9 BCVESC114 | 9-10 BMEPHY112 | 10:30-12:30 J1(BMECAD113), J2(BHSIDL118) | 2-3 BHSSKA117/BHSBKA117 | 3-4 MENTORING",
+        "WED": "8-9 BMEMAT111 | 9-10 BMEPHY112 | 10:30-11:30 BMEPSC115 | 11:30-12:30 BCVESC114 | 2-4 AICTE ACTIVITY",
+        "THU": "8-9 BMECAD113 | 10:30-12:30 J2(BMECAD113), J1(BHSIDL118) | 2-3 BMEMAT111 | 3-4 BMEPSC115",
+        "FRI": "8-9 BMEPHY112 | 9-10 BCVESC114 | 10:30-12:30 BMEMAT111 | 2-4 J1(BMEPHY112), J2(BMEPSL116) | 4-5:30 MATHS LAB",
+        "SAT": "8-9 BMEPSC115 | 9-10 BMEMAT111 | 10:30-12:30 J1(BMEPSL116), J2(BMEPHY112)"
+      }
+    },
+    "K": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "IS & E",
+      "room": "CV002B",
+      "batches": "K1: Roll 1 to 33, K2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "NL-2",
+        "BCSCHE112": "Dr. Pavithra K S (Chem)",
+        "BFYETC113": "Prof. Manjushree K R (ISE)",
+        "BECESC114": "Dr. K M Prakash (EC)",
+        "BCSPSC115": "Prof. Chaitra K G (ISE)",
+        "BCSPSL116": "Prof. Chaitra K G (ISE)",
+        "BHSENG117": "Prof. Annapurneshwari P (ENG)",
+        "BHSIDL118": "Prof. D E Umesh (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BCSMAT111 | 9-10 BCSCHE112 | 10:30-12:30 BCSCHE112(K1), BCSPSL116(K2) | 2-4 BHSENG117",
+        "TUE": "8-9 BCSCHE112 | 9-10 BFYETC113 | 10:30-11:30 BECESC114 | 11:30-12:30 BCSMAT111 | 2-4 BCSCHE112(K2), BCSPSL116(K1) | 4-5:30 Maths Lab",
+        "WED": "8-9 BFYETC113 | 9-10 BECESC114 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSMAT111 | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "THU": "8-9 BECESC114 | 9-10 BCSCHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BCSPSC115 | 2-4 Placement Activities",
+        "FRI": "8-9 BCSPSC115 | 9-10 BCSMAT111 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BFYETC113 | 2-4 AICTE Activity Point Program",
+        "SAT": "9-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BECESC114"
+      }
+    },
+    "L": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "IS & E and BT",
+      "room": "CV301",
+      "batches": "L1: Roll 1 to 33, L2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Prof. Chaitra A P (Maths)",
+        "BCSCHE112": "Prof. Bhumika P S (Chem)",
+        "BFYETC113": "Prof. Nagashree J A (ISE)",
+        "BECESC114": "Dr. Kiran Kumar G H (EC)",
+        "BCSPSC115": "Prof. Sahana N A (ISE)",
+        "BCSPSL116": "Prof. Sahana N A (ISE)",
+        "BHSENG117": "Prof. Annapurneshwari P (ENG)",
+        "BHSIDL118": "Prof. Manjunath GM (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BCSMAT111 | 9-10 BFYETC113 | 10:30-11:30 BECESC114 | 11:30-12:30 BCSPSC115 | 2-4 BCSCHE112(L1), BCSPSL116/BBTPSL116(L2) | 4-5:30 Maths Lab",
+        "TUE": "8-9 BECESC114 | 9-10 BCSCHE112 | 10:30-12:30 BCSCHE112(L2), BCSPSL116/BBTPSL116(L1) | 2-3 BCSMAT111 | 3-5:30 AICTE Activity Point Program",
+        "WED": "8-9 BFYETC113 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BECESC114 | 2-4 BHSENG117",
+        "THU": "9-10 BCSCHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BECESC114 | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "FRI": "8-9 BCSPSC115 | 9-10 BCSMAT111 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BFYETC113 | 2-4 Placement Activities",
+        "SAT": "8-9 BCSCHE112 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111"
+      }
+    },
+    "M": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "AIML",
+      "room": "CV305",
+      "batches": "M1: Roll 1 to 33, M2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Dr. A B Vishalakshi (Maths)",
+        "BCSCHE112": "Prof. Thriveni M G (Chem)",
+        "BFYETC113": "Prof. Sushma B (AIML)",
+        "BECESC114": "Prof. Suma K G (EC)",
+        "BCSPSC115": "Prof. Mamatha (AIML)",
+        "BCSPSL116": "Prof. Mamatha (AIML)",
+        "BHSENG117": "Prof. Shruthi B (ENG)",
+        "BHSIDL118": "Dr. S J Prashanth (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BFYETC113 | 9-10 BECESC114 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSCHE112 | 2-4 BHSIDL118",
+        "TUE": "9-10 BFYETC113 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BCSPSC115 | 2-4 Placement Activities",
+        "WED": "8-9 BCSCHE112 | 9-10 BCSMAT111 | 10:30-12:30 BHSENG117 | 2-5:30 AICTE Activity Point Program",
+        "THU": "8-9 BECESC114 | 9-10 BFYETC113 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSMAT111 | 2-4 BCSCHE112(M1), BCSPSL116(M2) | 4-5:30 Maths Lab",
+        "FRI": "8-9 BCSPSC115 | 9-10 BECESC114 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BFYETC113 | 2-4 BCSCHE112(M2), BCSPSL116(M1) | 4-5:30 Mentoring",
+        "SAT": "8-9 BCSMAT111 | 9-10 BCSPSC115 | 10:30-11:30 BECESC114 | 11:30-12:30 BCSCHE112"
+      }
+    },
+    "N": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "AIML",
+      "room": "CV302A",
+      "batches": "N1: Roll 1 to 33, N2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Prof. Nagarathnamma K G (Maths)",
+        "BCSCHE112": "Dr. Manjunath K S (Chem)",
+        "BFYETC113": "Prof. Shinila H S (AIML)",
+        "BECESC114": "Prof. Savithri G R (EC)",
+        "BCSPSC115": "Prof. Priya (AIML)",
+        "BCSPSL116": "Prof. Priya (AIML)",
+        "BHSENG117": "Prof. Annapurneshwari P (ENG)",
+        "BHSIDL118": "Dr. T R Mohan (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BECESC114 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSCHE112 | 2-4 Placement Activities",
+        "TUE": "8-9 BCSMAT111 | 9-10 BCSCHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BCSPSC115 | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "WED": "9-10 BECESC114 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BFYETC113 | 2-4 BCSCHE112(N1), BCSPSL116(N2) | 4-5:30 Maths Lab",
+        "THU": "8-9 BCSPSC115 | 9-10 BECESC114 | 10:30-12:30 BCSCHE112(N2), BCSPSL116(N1) | 2-3 BCSMAT111 | 3-5:30 AICTE Activity Point Program",
+        "FRI": "8-9 BCSCHE112 | 9-10 BFYETC113 | 10:30-11:30 BECESC114 | 11:30-12:30 BCSMAT111 | 2-4 BHSENG117",
+        "SAT": "8-9 BFYETC113 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111"
+      }
+    },
+    "O": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "AIML",
+      "room": "CV302B",
+      "batches": "O1: Roll 1 to 33, O2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Prof. Pallavi G S (Maths)",
+        "BCSCHE112": "Dr. Pavithra K S (Chem)",
+        "BFYETC113": "Dr. Gangamma H (CSE)",
+        "BECESC114": "Prof. Radhika Priya Y R (EC)",
+        "BCSPSC115": "Prof. Priyanka P (CSBS)",
+        "BCSPSL116": "Prof. Priyanka P (CSBS)",
+        "BHSENG117": "Prof. Annapurneshwari P (ENG)",
+        "BHSIDL118": "Dr. Ashok E (Mech)"
+      },
+      "schedule": {
+        "MON": "9-10 BCSPSC115 | 10:30-11:30 BFYETC113 | 11:30-12:30 BCSMAT111 | 2-4 Placement Activities",
+        "TUE": "8-9 BFYETC113 | 9-10 BCSMAT111 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSCHE112 | 2-5:30 AICTE Activity Point Program",
+        "WED": "8-9 BCSCHE112 | 9-10 BFYETC113 | 10:30-12:30 BCSCHE112(O1), BCSPSL116(O2) | 2-3 BCSMAT111 | 3-4 BECESC114 | 4-5:30 Maths Lab",
+        "THU": "8-9 BECESC114 | 9-10 BCSPSC115 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BCSMAT111 | 2-4 BHSENG117",
+        "FRI": "8-9 BCSPSC115 | 9-10 BECESC114 | 10:30-12:30 BCSCHE112(O2), BCSPSL116(O1) | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "SAT": "8-9 BCSMAT111 | 9-10 BCSCHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BECESC114"
+      }
+    },
+    "P": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "AIML & CSDS",
+      "room": "M208",
+      "batches": "P1: Roll 1 to 33, P2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Dr. Vikas K (Maths)",
+        "BCSCHE112": "Prof. Bhumika P S (Chem)",
+        "BFYETC113": "Prof. Vani (CSE)",
+        "BECESC114": "Prof. Bhagya Shantha Kumar (EC)",
+        "BCSPSC115": "Prof. Nethra S (CSBS)",
+        "BCSPSL116": "Prof. Nethra S (CSBS)",
+        "BHSENG117": "Prof. Shruthi B (ENG)",
+        "BHSIDL118": "Dr. Sushma Patil (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BCSMAT111 | 9-10 BCSCHE112 | 10:30-12:30 BCSCHE112(P1), BCSPSL116(P2) | 2-4 BHSENG117",
+        "TUE": "8-9 BCSPSC115 | 9-10 BFYETC113 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BECESC114 | 2-4 BCSCHE112(P2), BCSPSL116(P1) | 4-5:30 Maths Lab",
+        "WED": "8-9 BFYETC113 | 9-10 BECESC114 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BCSCHE112 | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "THU": "8-9 BECESC114 | 9-10 BCSMAT111 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BFYETC113 | 2-4 Placement Activities",
+        "FRI": "8-9 BCSCHE112 | 9-10 BCSMAT111 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BFYETC113 | 2-4 AICTE Activity Point Program",
+        "SAT": "9-10 BCSPSC115 | 10:30-11:30 BECESC114 | 11:30-12:30 BCSMAT111"
+      }
+    },
+    "Q": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "CSBS",
+      "room": "M207",
+      "batches": "Q1: Roll 1 to 33, Q2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Dr. Rekha M B (Maths)",
+        "BCSCHE112": "Prof. Thriveni M G (Chem)",
+        "BFYETC113": "Prof. Vinutha K L (CSE)",
+        "BECESC114": "Dr. Tejashwini Y (EC)",
+        "BCSPSC115": "Prof. Chetan B K (CSBS)",
+        "BCSPSL116": "Prof. Chetan B K (CSBS)",
+        "BHSENG117": "Prof. Shruthi B (ENG)",
+        "BHSIDL118": "Dr. A B Vinayaka Patil (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BCSMAT111 | 9-10 BFYETC113 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BECESC114 | 2-4 BCSCHE112(Q1), BCSPSL116(Q2)",
+        "TUE": "8-9 BCSCHE112 | 9-10 BCSPSC115 | 10:30-12:30 BCSCHE112(Q2), BCSPSL116(Q1) | 2-4 Placement Activities",
+        "WED": "8-9 BFYETC113 | 9-10 BCSMAT111 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BECESC114 | 2-4 BHSENG117 | 4-5:30 Mentoring",
+        "THU": "9-10 BCSMAT111 | 10:30-11:30 BFYETC113 | 11:30-12:30 BCSCHE112 | 2-4 BHSIDL118 | 4-5:30 Maths Lab",
+        "FRI": "8-9 BCSPSC115 | 9-10 BECESC114 | 10:30-11:30 BFYETC113 | 11:30-12:30 BCSCHE112 | 2-3 BCSMAT111 | 3-5:30 AICTE Activity Point Program",
+        "SAT": "8-9 BECESC114 | 9-10 BCSCHE112 | 10:30-11:30 BCSMAT111"
+      }
+    },
+    "R": {
+      "cycle": "Chemistry-cycle (CSE Stream)",
+      "branch": "CSDG",
+      "room": "M-201",
+      "batches": "R1: Roll 1 to 33, R2: 33 onwards",
+      "instructors": {
+        "BCSMAT111": "Prof. Anusha R S (Maths)",
+        "BCSCHE112": "Dr. Manjunatha K S (Chem)",
+        "BFYETC113": "Prof. Chaitra K J (ISE)",
+        "BECESC114": "Prof. Vanishree H V (EC)",
+        "BCSPSC115": "Prof. Madhuri Dixit (CSDG)",
+        "BCSPSL116": "Prof. Madhuri Dixit (CSDG)",
+        "BHSENG117": "Prof. Shruthi B (ENG)",
+        "BHSIDL118": "Dr. T N Vijaya Kumar (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BFYETC113 | 9-10 BCSMAT111 | 10:30-11:30 BCSPSC115 | 11:30-12:30 BECESC114 | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "TUE": "9-10 BCSMAT111 | 10:30-11:30 BECESC114 | 11:30-12:30 BCSPSC115 | 2-4 Placement Activities",
+        "WED": "8-9 BCSCHE112 | 9-10 BFYETC113 | 10:30-12:30 BHSENG117 | 2-4 AICTE Activity Point Program",
+        "THU": "8-9 BCSMAT111 | 9-10 BCSCHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BECESC114 | 2-4 BCSCHE112(R1), BCSPSL116(R2)",
+        "FRI": "8-9 BCSPSC115 | 9-10 BFYETC113 | 10:30-11:30 BCSCHE112 | 11:30-12:30 BCSMAT111 | 2-4 BCSCHE112(R2), BCSPSL116(R1) | 4-5:30 Maths Lab",
+        "SAT": "8-9 BECESC114 | 9-10 BCSPSC115 | 10:30-11:30 BCSMAT111 | 11:30-12:30 BCSCHE112"
+      }
+    },
+    "S": {
+      "cycle": "Chemistry-cycle (EEE Stream)",
+      "branch": "EC",
+      "room": "CV-101",
+      "batches": "S1: Roll 1 to 33, S2: 33 onwards",
+      "instructors": {
+        "BEEMAT111": "Prof. Pooja K N (Maths)",
+        "BEECHE112": "Dr. Prasannakumar J K (Chem)",
+        "BFYETC113": "Prof. Priya V (CSBS)",
+        "BEEESC114": "Dr. Shivakumar Swamy G M (EE)",
+        "BECPSC115": "Dr. Banumathi K L (EC)",
+        "BECPSL116": "Dr. Banumathi K L (EC)",
+        "BHSENG117": "Prof. Annapurneshwari P (ENG)",
+        "BHSIDL118": "Prof. Ravi Kumar H N (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BFYETC113 | 9-10 BECPSC115 | 10:30-11:30 BEECHE112 | 11:30-12:30 BEEMAT111 | 2-4 Placement Activities",
+        "TUE": "8-9 BEEMAT111 | 9-10 BEECHE112 | 10:30-11:30 BECPSC115 | 11:30-12:30 BEEESC114 | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "WED": "9-10 BEECHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BEEMAT111 | 2-4 BEECHE112(S1), BECPSL116(S2) | 4-5:30 Maths Lab",
+        "THU": "8-9 BEECHE112 | 9-10 BEEESC114 | 10:30-12:30 BEECHE112(S2), BECPSL116(S1) | 2-4 AICTE Activity Point Program",
+        "FRI": "8-9 BECPSC115 | 9-10 BEEESC114 | 10:30-11:30 BEEMAT111 | 11:30-12:30 BFYETC113 | 2-4 BHSENG117",
+        "SAT": "8-9 BEEESC114 | 9-10 BEEMAT111 | 10:30-11:30 BFYETC113 | 11:30-12:30 BECPSC115"
+      }
+    },
+    "T": {
+      "cycle": "Chemistry-cycle (EEE Stream)",
+      "branch": "EC",
+      "room": "T-303",
+      "batches": "T1: Roll 1 to 33, T2: 33 onwards",
+      "instructors": {
+        "BEEMAT111": "Prof. Reshma M T (Maths)",
+        "BEECHE112": "Dr. Prasanna B M (Chem)",
+        "BFYETC113": "Prof. Sindhushree M H (CSD)",
+        "BEEESC114": "Prof. Prashanth Kumar H K (EE)",
+        "BECPSC115": "Prof. Poornima G N (EC)",
+        "BECPSL116": "Prof. Poornima G N (EC)",
+        "BHSENG117": "Prof. Shruthi B (ENG)",
+        "BHSIDL118": "Dr. A G Shankaramurthy (Mech)"
+      },
+      "schedule": {
+        "MON": "8-9 BEEMAT111 | 9-10 BECPSC115 | 10:30-11:30 BFYETC113 | 11:30-12:30 BEEESC114 | 2-4 Placement Activities or AICTE Activity (verify Mon/Tue split on sheet)",
+        "TUE": "8-9 BFYETC113 | 9-10 BEEESC114 | 10:30-11:30 BEEMAT111 | 11:30-12:30 BEECHE112 | 2-4 AICTE Activity Point Program or Placement Activities (verify Mon/Tue split on sheet)",
+        "WED": "8-9 BEECHE112 | 9-10 BFYETC113 | 10:30-12:30 BEECHE112(T1), BECPSL116(T2) | 2-3 BEEMAT111 | 3-4 BECPSC115 | 4-5:30 Maths Lab",
+        "THU": "8-9 BEEESC114 | 9-10 BECPSC115 | 10:30-11:30 BEECHE112 | 11:30-12:30 BEEMAT111 | 2-4 BHSENG117",
+        "FRI": "8-9 BECPSC115 | 9-10 BEEMAT111 | 10:30-12:30 BEECHE112(T2), BECPSL116(T1) | 2-4 BHSIDL118 | 4-5:30 Mentoring",
+        "SAT": "9-10 BEECHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BEEESC114"
+      }
+    },
+    "U": {
+      "cycle": "Chemistry-cycle (CV Stream)",
+      "branch": "CV",
+      "room": "CV002A",
+      "batches": "U1: Roll 1 to 33, U2: 33 onwards",
+      "instructors": {
+        "BCVMAT111": "Dr. Pradeep Kumar J (Maths)",
+        "BCVCHE112": "Dr. Mallikarjuna H R (Chem)",
+        "BFYETC113": "Dr. Prashanth G R (CSDS)",
+        "BEEESC114": "Prof. Shilpa S K (EE)",
+        "BCVPSC115": "Dr. M N Shivakumar (Civil)",
+        "BCVPSL116": "Dr. M N Shivakumar (Civil)",
+        "BHSENG117": "Prof. Annapurneshwari P (ENG)",
+        "BHSIDL118": "Prof. Manjunath G M (Mech)"
+      },
+      "schedule": {
+        "MON": "9-10 BEEESC114 | 10:30-11:30 BCVMAT111 | 11:30-12:30 BFYETC113 | 2-4 Placement Activities | 4-5:30 Mentoring",
+        "TUE": "8-9 BCVMAT111 | 9-10 BCVCHE112 | 10:30-11:30 BFYETC113 | 11:30-12:30 BCVPSC115 | 2:00-3:30 BHSENG117 | 3:30-5:30 BCVCHE112(U2), BCVPSL116(U1)",
+        "WED": "8-9 BCVCHE112 | 9-10 BFYETC113 | 10:30-11:30 BEEESC114 | 11:30-12:30 BCVPSC115 | 2-4 BHSIDL118 | 4-5:30 Maths Lab",
+        "THU": "8-9 BCVPSC115 | 9-10 BEEESC114 | 10:30-11:30 BCVCHE112 | 11:30-12:30 BCVMAT111 | 2-4 AICTE Activity Point Program",
+        "FRI": "8-9 BFYETC113 | 9-10 BCVPSC115 | 10:30-11:30 BCVCHE112 | 11:30-12:30 BCVMAT111",
+        "SAT": "8-9 BEEESC114 | 9-10 BCVMAT111 | 10:30-12:30 BCVCHE112(U1), BCVPSL116(U2)"
+      }
+    }
+  }
+}
