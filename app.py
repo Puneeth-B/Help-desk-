@@ -53,6 +53,15 @@ st.markdown(
             opacity: 0.85;
             margin-bottom: 0.75rem;
         }
+        div[data-testid="stBottomBlockContainer"]::after {
+            content: "⚠️ Powered by AI and can make mistakes. Double-check important campus dates with official notices.";
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 0.75rem;
+            opacity: 0.65;
+            padding-top: 0.45rem;
+        }
     </style>
     """,
     unsafe_allow_html=True,
