@@ -137,7 +137,7 @@ def format_chat_log(chat: dict) -> str:
 with st.sidebar:
     st.markdown("### 🎓 Campus Agent")
     st.markdown(
-        f'<div class="status-badge">🟢 {len(campus_data), len(timetables} verified campus topics loaded</div>',
+        f'<div class="status-badge">🟢 {len(campus_data), len(timetables)} verified campus topics loaded</div>',
         unsafe_allow_html=True,
     )
 
