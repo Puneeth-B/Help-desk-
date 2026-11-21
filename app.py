@@ -274,7 +274,7 @@ if len(current_chat["messages"]) == 0:
 
     # Starter suggestion cards (2x2 grid)
     starters = [
-        ("📅 CLass Time table", "Section A time table"),
+        ("📅 Class Time table", "Section A time table"),
         ("📋 Attendance Rules", "What is the minimum attendance required for exams?"),
         ("🔬 Physics Lab", "Where is the Engineering Physics Lab and what are its timings?"),
         ("💻 C Programming Help", "Explain pointers in C with a simple beginner example."),
