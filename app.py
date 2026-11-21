@@ -4,6 +4,9 @@ from datetime import datetime
 import streamlit as st
 from google import genai
 from google.genai import types
+import io
+import re
+from gtts import gTTS
 
 # 1. Page Configuration (must be the first Streamlit command)
 st.set_page_config(
@@ -149,6 +152,20 @@ def transcribe_audio(audio_bytes: bytes) -> str:
         except Exception:
             continue
     return ""
+    
+def text_to_speech(text: str) -> bytes:
+    # Strip markdown symbols and code blocks so the voice sounds natural
+    clean = re.sub(r"```.*?```", "Check the code snippet on screen.", text, flags=re.DOTALL)
+    clean = re.sub(r"[#*`_~>]", "", clean)
+    clean = re.sub(r"\s+", " ", clean).strip()
+    if not clean:
+        return b""
+
+    buf = io.BytesIO()
+    # Remove tld="co.in" if you prefer the default US accent
+    gTTS(text=clean, lang="en", tld="co.in").write_to_fp(buf)
+    return buf.getvalue()
+    
 # 5. Sidebar: New Chat, Chat Logs & Export
 with st.sidebar:
     st.markdown("### 🎓 Campus Agent")
@@ -214,6 +231,7 @@ submission = st.chat_input(
     accept_audio=True,
 )
 prompt = st.session_state.pop("pending_prompt", None)
+is_voice_input = False  # Default: silent for typed text & starter cards
 
 if submission:
     typed_text = (submission.text or "").strip()
@@ -222,7 +240,9 @@ if submission:
     if submission.audio:
         with st.spinner("🎙️ Listening..."):
             spoken_text = transcribe_audio(submission.audio.getvalue())
-        if not spoken_text and not typed_text:
+        if spoken_text:
+            is_voice_input = True
+        elif not typed_text:
             st.warning("Couldn't catch that audio — try speaking a bit closer to the mic.")
 
     if typed_text and spoken_text:
@@ -272,7 +292,21 @@ else:
         avatar = "🧑‍🎓" if msg["role"] == "user" else "🎓"
         with st.chat_message(msg["role"], avatar=avatar):
             st.markdown(msg["content"])
+else:
+    should_autoplay = st.session_state.pop("play_latest_audio", False)
+    last_idx = len(current_chat["messages"]) - 1
 
+    for idx, msg in enumerate(current_chat["messages"]):
+        avatar = "🧑‍🎓" if msg["role"] == "user" else "🎓"
+        with st.chat_message(msg["role"], avatar=avatar):
+            st.markdown(msg["content"])
+            if msg.get("audio"):
+                st.audio(
+                    msg["audio"],
+                    format="audio/mp3",
+                    autoplay=(should_autoplay and idx == last_idx),
+                )
+                
 # 8. Generate & Stream AI Agent Reply
 if prompt:
     history = [
@@ -304,7 +338,19 @@ if prompt:
                         placeholder.markdown(reply + "▌")
 
                 placeholder.markdown(reply)
-                current_chat["messages"].append({"role": "assistant", "content": reply})
+                msg_data = {"role": "assistant", "content": reply}
+
+                if is_voice_input:
+                    try:
+                        with st.spinner("🔊 Preparing voice reply..."):
+                            audio_bytes = text_to_speech(reply)
+                        if audio_bytes:
+                            msg_data["audio"] = audio_bytes
+                            st.session_state.play_latest_audio = True
+                    except Exception:
+                        pass  # If TTS fails, the text reply still shows normally
+
+                current_chat["messages"].append(msg_data)
                 last_error = None
                 break
             except Exception as e:
