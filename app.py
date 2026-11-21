@@ -287,11 +287,7 @@ if len(current_chat["messages"]) == 0:
             if st.button(f"**{card_title}**\n\n{card_prompt}", key=f"starter_{idx}", use_container_width=True):
                 st.session_state.pending_prompt = card_prompt
                 st.rerun()
-else if
-    for msg in current_chat["messages"]:
-        avatar = "🧑‍🎓" if msg["role"] == "user" else "🎓"
-        with st.chat_message(msg["role"], avatar=avatar):
-            st.markdown(msg["content"])
+
 else:
     should_autoplay = st.session_state.pop("play_latest_audio", False)
     last_idx = len(current_chat["messages"]) - 1
