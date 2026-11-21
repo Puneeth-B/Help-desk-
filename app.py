@@ -132,7 +132,23 @@ def format_chat_log(chat: dict) -> str:
         speaker = "You" if m["role"] == "user" else "Campus Agent"
         lines.append(f"[{speaker}]\n{m['content']}\n")
     return "\n".join(lines)
-
+    
+def transcribe_audio(audio_bytes: bytes) -> str:
+    audio_part = types.Part.from_bytes(data=audio_bytes, mime_type="audio/wav")
+    for model_name in MODELS:
+        try:
+            res = client.models.generate_content(
+                model=model_name,
+                contents=[
+                    "Transcribe this voice message accurately. Return ONLY the spoken words with no extra commentary.",
+                    audio_part,
+                ],
+            )
+            if res.text:
+                return res.text.strip()
+        except Exception:
+            continue
+    return ""
 # 5. Sidebar: New Chat, Chat Logs & Export
 with st.sidebar:
     st.markdown("### 🎓 Campus Agent")
@@ -192,18 +208,38 @@ with st.sidebar:
         create_new_chat()
         st.rerun()
 
-# 6. Capture Input (either typed or from clicking a starter chip)
-user_input = st.chat_input("Ask about campus labs, attendance, exam dates, or any subject...")
-prompt = st.session_state.pop("pending_prompt", None) or user_input
+# 6. Capture Input (typed text, voice recording, or starter card click)
+submission = st.chat_input(
+    "Ask or tap the mic to speak...",
+    accept_audio=True,
+)
+prompt = st.session_state.pop("pending_prompt", None)
+
+if submission:
+    typed_text = (submission.text or "").strip()
+    spoken_text = ""
+
+    if submission.audio:
+        with st.spinner("🎙️ Listening..."):
+            spoken_text = transcribe_audio(submission.audio.getvalue())
+        if not spoken_text and not typed_text:
+            st.warning("Couldn't catch that audio — try speaking a bit closer to the mic.")
+
+    if typed_text and spoken_text:
+        prompt = f"{typed_text}\n\n🎤 {spoken_text}"
+    elif spoken_text:
+        prompt = f"🎤 {spoken_text}"
+    elif typed_text:
+        prompt = typed_text
 
 if prompt:
     # Auto-name the chat using the first user question
     if len(current_chat["messages"]) == 0:
-        clean_title = prompt.strip().replace("\n", " ")
+        clean_title = prompt.replace("🎤 ", "").strip().replace("\n", " ")
         current_chat["title"] = (clean_title[:26] + "...") if len(clean_title) > 26 else clean_title
 
     current_chat["messages"].append({"role": "user", "content": prompt})
-
+    
 # 7. Main Chat Area: Welcome Screen OR Conversation History
 if len(current_chat["messages"]) == 0:
     st.markdown(
